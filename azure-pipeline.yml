@@ -26,7 +26,7 @@ stages:
     steps:
     
 
-    - task: RunARMTTKTests@1
+    - task: UseBicep@0
       displayName: Scan Bicep files
       inputs:
         templatelocation: '$(System.DefaultWorkingDirectory)'
